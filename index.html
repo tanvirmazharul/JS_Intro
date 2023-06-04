@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Js/JQ</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- Text Change -->
+      <h1>Click the button to change the text</h1>
+      <button class="btn btn-dark" onclick="textChange()">Click Me to Change</button>
+      <h2 id="tc">Lorem</h2>
+
+      <hr>
+
+      <!-- date & time -->
+      <h1>Click this button to view the date & time</h1>
+      <button class="btn btn-primary" type="button" onclick="dateAndTime()">Show date & time</button>
+      <h4 id="h4"></h4>
+
+      <hr>
+
+      <!-- Mood change -->
+      <h1>Mood Off? Click Below</h1>
+      <button class="btn btn-dark" onclick="sad()">Sad</button>
+      <button class="btn btn-warning" onclick="smile()">Happy</button>
+      <img id="mood" src="images/smile.png" alt="Sad">
+
+      <hr>
+
+      <button class="btn btn-outline-danger" onclick="window.print()">Print this page</button>
+
+      <hr>
+
+      <!-- Font Change -->
+      <h1>Click this button to change the font size.</h1>
+      <button onmouseover="bigFont()" class="btn btn-dark">Big font</button>
+      <h3 id="h3">Lorem ipsum dolor sit amet.</h3>
+
+      <hr>
+
+      <!-- Text Print-->
+      <h2>JavaScript Statements</h2>
+      <p>JavaScript code blocks are written between { and }</p>
+      <button class="btn btn-outline-danger" onclick="myParagraph()">Click Me!</button>
+      <p id="t1"></p>
+
+      <hr>
+
+      <!-- Data Addition -->
+      <h1>Data Addition</h1>
+      <h2>The + Operator</h2>
+      <button class="btn btn-primary" onclick="add()">Result</button>
+      <span id="data"></span>
+
+      <hr>
+
+      <!-- Data Subtraction -->
+      <h1>Data Subtraction</h1>
+      <h2>The - Operator</h2>
+      <p>a = 50, calculate b = a - 25:</p>
+      <button class="btn btn-primary" onclick="sub()">Result</button>
+      <p id="b"></p>
+
+
+      <hr>
+
+      <!-- Data Multipication -->
+      <h2>Data Multipication</h2>
+      <h2>The * Operator</h2>
+      <button class="btn btn-primary" onclick="Multipication()">Result</button>
+      <p id="mul"></p>
+
+
+      <hr>
+
+
+      <!-- Another system of Multiplication -->
+      <h1>Another system of Multiplication</h1>
+      <h2>The * Operator</h2>
+      <p>a = 5, calculate b = a * 5:</p>
+      <button class="btn btn-primary" onclick="m()">Result</button>
+      <p id="m1"></p>
+
+
+      <hr>
+
+
+      <!-- Data Division -->
+      <h1>Data Division</h1>
+      <h2>The % Operator</h2>
+      <p>a = 50<br>calculate b = a % 2:</p>
+      <button class="btn btn-primary" onclick="div()">show</button>
+      <p id="divi"></p>
+
+
+      <hr>
+
+
+      <!-- Content Change -->
+      <h2>What Can JavaScript Do?</h2>
+      <p>JavaScript can change any HTML content.</p>
+      <button class="btn btn-primary" onclick="changeContent()">Click Me to Change!</button>
+      <p id="change"></p>
+
+      <hr>
+
+      <!-- JavaScript Strings -->
+      <h1>JavaScript Strings</h1>
+      <p>You can use quotes inside a string, as long as they don't match the quotes surrounding the string.</p>
+      <button class="btn btn-primary" onclick="calStr()">show</button>
+      <p id="s"></p>
+
+
+    </div>
+  
+    <!-- js links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

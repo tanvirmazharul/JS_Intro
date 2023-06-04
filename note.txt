@@ -1,0 +1,8 @@
+Value-Placeholder - To determine wheather data will be pre-given or need to input
+prepend-append - To place something before or after 
+
+btn-link- to use buttons as link
+ctrl d-> ctrl c -> ctrl h -> To select and replace
+ID can be called with # tag
+data-bs reffered as javascript work
+
